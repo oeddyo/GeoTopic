@@ -7,7 +7,7 @@ import statsmodels.sandbox.distributions.mv_normal as mvd
 import time
 
 class LDA():
-    def __init__(self, Z=5, R=20, n_iteration=5000):
+    def __init__(self, Z=20, R=20, n_iteration=5000):
         print 'Fetching data...'
         ((self.doc_user, self.user_real_ids, self.user_docs, self.user_day_count \
               , self.user_loc, self.doc_loc, self.created_time, self.day_of_week \
