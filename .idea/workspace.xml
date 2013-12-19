@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="965d4b3a-a4a0-4098-8c73-b8940dce0d78" name="Default" comment="" />
+    <ignored path="GeoTopic.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Model.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1385528761923" ignored="false" />
+    <file path="/prepare_data.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387413636568" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/geo/open_file.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1385430347941" ignored="false" />
+    <file path="/open_file.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1385428517947" ignored="false" />
+    <file path="/Model2_myself.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1385605903055" ignored="false" />
+    <file path="/lda.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386788548434" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/open_gis.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386742808455" ignored="false" />
+    <file path="/open_gis.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386742717032" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/Venue.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1385923695279" ignored="false" />
+    <file path="/Venue.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1385923690139" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/compute_summary.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386365404809" ignored="false" />
+    <file path="/compute_summary.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386365242313" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/venue.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386274063968" ignored="false" />
+    <file path="/venue.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386274061445" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386268281808" ignored="false" />
+    <file path="/server.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386268280968" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/app/server.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386268449806" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/__init__.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651196951" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/views.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386872333515" ignored="false" />
+    <file path="/views.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386872290716" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/run.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651142407" ignored="false" />
+    <file path="/run.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386603171718" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/stats.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386796412826" ignored="false" />
+    <file path="/stats.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386731741172" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/transfer_data.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386685086297" ignored="false" />
+    <file path="/transfer_data.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386448440170" ignored="false" />
+    <file path="/Dummy.txt" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386516224242" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/pull_data.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386442566442" ignored="false" />
+    <file path="/pull_data.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386442022534" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/dict.csv" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386434596833" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/test.csv" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386441356035" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/app/annotator.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386436504983" ignored="false" />
+    <file path="/test.csv" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386438837598" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/annotation.csv" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386538290442" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/text.csv" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386538290442" ignored="false" />
+    <file path="$USER_HOME$/work/social_trace/social_trace_label/surveys.csv" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386538290442" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/cron/pp_transfer_data.sh" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386602520585" ignored="false" />
+    <file path="/pp_transfer_data.sh" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386451270553" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/cron/pp_compute_stats.sh" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386602520585" ignored="false" />
+    <file path="/pp_compute_stats.sh" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386451275967" ignored="false" />
+    <file path="/.gitignore" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386451010269" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/.gitignore" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386451011241" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/templates/single_park.html" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386606008996" ignored="false" />
+    <file path="/single_park.html" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386605942793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/run2.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386610166391" ignored="false" />
+    <file path="/run2.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651261695" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/templates/park.html.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386610215813" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/templates/park.html" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386744614760" ignored="false" />
+    <file path="/park.html" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386612363572" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/run2.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651156934" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/app/templates/trending.html" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386872244847" ignored="false" />
+    <file path="/trending.html" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386871989683" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/social_trace.wsgi" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651417110" ignored="false" />
+    <file path="/social_trace.wsgi" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651417110" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/trash/__init__.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651105668" ignored="false" />
+    <file path="/parkbeat.wsgi" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651560830" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/server/parkbeat.wsgi" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386651560830" ignored="false" />
+    <file path="/new_lda.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387128238645" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/bin/~/PycharmProjects/parks/insert_names.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386729841981" ignored="false" />
+    <file path="/insert_names.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386729840526" ignored="false" />
+    <file path="/new_new_lda.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1386789959184" ignored="false" />
+    <file path="/RegionLDA.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387314340974" ignored="false" />
+    <file path="/RegionLDA_z.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387328919878" ignored="false" />
+    <file path="/RegionLDA_z_y.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387387231685" ignored="false" />
+    <file path="/RegionLDA_z_y_c.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387416303548" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GeoTopic" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="prepare_data.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prepare_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="84" selection-start="3506" selection-end="3506" vertical-scroll-proportion="0.5788337">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegionLDA.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegionLDA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="33" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegionLDA_z.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegionLDA_z.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#25#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegionLDA_z_y.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegionLDA_z_y.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="50" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#25#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegionLDA_z_y_c.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="0" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#25#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_lda.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_lda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="53" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Model.py" />
+        <option value="$PROJECT_DIR$/Model2_myself.py" />
+        <option value="$PROJECT_DIR$/lda.py" />
+        <option value="$PROJECT_DIR$/new_new_lda.py" />
+        <option value="$PROJECT_DIR$/new_lda.py" />
+        <option value="$PROJECT_DIR$/RegionLDA.py" />
+        <option value="$PROJECT_DIR$/RegionLDA_z.py" />
+        <option value="$PROJECT_DIR$/RegionLDA_z_y.py" />
+        <option value="$PROJECT_DIR$/RegionLDA_z_y_c.py" />
+        <option value="$PROJECT_DIR$/prepare_data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="22" />
+    <option name="width" value="1436" />
+    <option name="height" value="878" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoTopic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoTopic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoTopic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/work/social_trace/social_trace_label" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.RegionLDA_z_y_c">
+    <configuration default="false" name="RegionLDA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RegionLDA.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegionLDA_z" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RegionLDA_z.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegionLDA_z_y" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RegionLDA_z_y.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="prepare_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepare_data.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegionLDA_z_y_c" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RegionLDA_z_y_c.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GeoTopic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.RegionLDA" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RegionLDA_z" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RegionLDA_z_y" />
+      <item index="3" class="java.lang.String" itemvalue="Python.prepare_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RegionLDA_z_y_c" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.RegionLDA_z_y_c" />
+        <item index="1" class="java.lang.String" itemvalue="Python.prepare_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RegionLDA_z" />
+        <item index="3" class="java.lang.String" itemvalue="Python.RegionLDA_z_y" />
+        <item index="4" class="java.lang.String" itemvalue="Python.RegionLDA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="965d4b3a-a4a0-4098-8c73-b8940dce0d78" name="Default" comment="" />
+      <created>1385239690679</created>
+      <updated>1385239690679</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28057554" sideWeight="0.64775723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35224274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.032051284" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/scipy/sparse/csr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="0" selection-start="7867" selection-end="7867" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/numpy/core/arrayprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="608" column="0" selection-start="21301" selection-end="21301" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="64" selection-start="8054" selection-end="8054" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model2_myself.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="3918" selection-end="3918" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_new_lda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="20" selection-start="3054" selection-end="3066" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionLDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/-1514784696/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4164" column="8" selection-start="141329" selection-end="141329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/statsmodels/sandbox/distributions/mv_normal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1013" column="8" selection-start="30058" selection-end="30058" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1387142880000" expanded="false" signature="-1:-1" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/scipy/sparse/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="439" column="0" selection-start="13327" selection-end="13327" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1382376236000" expanded="false" signature="-1:-1" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionLDA_z.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionLDA_z_y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_lda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="53" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="0" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="84" selection-start="3506" selection-end="3506" vertical-scroll-proportion="0.5788337">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
