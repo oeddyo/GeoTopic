@@ -33,26 +33,26 @@ class LDA():
 
         self.n_doc, self.n_word = self.doc.shape
 
-        self.r_doc = np.zeros((1, self.n_doc))
-        self.z_doc = np.zeros((1, self.n_doc))
+        self.r_doc = np.zeros((1, self.n_doc), dtype=np.int)
+        self.z_doc = np.zeros((1, self.n_doc), dtype=np.int)
         self.y_word = {}
 
         self.n_iteration = n_iteration
 
 
-        self.cnt_y_word_sum = np.zeros((1, 3))
-        self.cnt_y_word = np.zeros((3, self.n_word))
+        self.cnt_y_word_sum = np.zeros((1, 3), dtype=np.int)
+        self.cnt_y_word = np.zeros((3, self.n_word), dtype=np.int)
 
-        self.cnt_r_word = np.zeros((self.R, self.n_word))
-        self.cnt_r_word_sum = np.zeros((1, self.R))
+        self.cnt_r_word = np.zeros((self.R, self.n_word), dtype=np.int)
+        self.cnt_r_word_sum = np.zeros((1, self.R), dtype=np.int)
 
-        self.cnt_z_word = np.zeros((self.Z, self.n_word))
-        self.cnt_z_word_sum = np.zeros((1, self.Z))
+        self.cnt_z_word = np.zeros((self.Z, self.n_word), dtype=np.int)
+        self.cnt_z_word_sum = np.zeros((1, self.Z), dtype=np.int)
 
-        self.cnt_r_doc = np.zeros((self.R, self.n_doc))
-        self.cnt_r_doc_sum = np.zeros((1, self.n_doc))
+        self.cnt_r_doc = np.zeros((self.R, self.n_doc), dtype=np.int)
+        self.cnt_r_doc_sum = np.zeros((1, self.n_doc), dtype=np.int)
 
-        self.cnt_r_topic = np.zeros((self.R, self.Z))
+        self.cnt_r_topic = np.zeros((self.R, self.Z), dtype=np.int)
 
 
         self.mu0 = self.doc_loc.mean(axis=0).reshape(1,2)
@@ -154,7 +154,7 @@ class LDA():
             _sn *= ((kn+1)*1.0/(kn*(vn-2+1)))
 
             p_l_r = mvd.MVT(_mu[0], _sn, vn-2+1).pdf(self.doc_loc[d, :])
-            print type(r), type(cur_z)
+
             p_z_r = (self.cnt_r_topic[r, cur_z] + self.alpha)*1.0/(self.cnt_r_topic[r, :].sum() + self.Z*self.alpha)
 
             p_w_zry = 1.0

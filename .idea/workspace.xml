@@ -68,7 +68,7 @@
     <file path="/RegionLDA.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387314340974" ignored="false" />
     <file path="/RegionLDA_z.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387328919878" ignored="false" />
     <file path="/RegionLDA_z_y.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387387231685" ignored="false" />
-    <file path="/RegionLDA_z_y_c.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387418700243" ignored="false" />
+    <file path="/RegionLDA_z_y_c.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387418883307" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +88,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="prepare_data.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="prepare_data.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prepare_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="123" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.6069114">
+            <state line="112" column="27" selection-start="3220" selection-end="3220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegionLDA_z_y_c.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RegionLDA_z_y_c.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="60" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0">
+            <state line="36" column="24" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.40172786">
               <folding>
                 <element signature="e#25#44#0" expanded="true" />
               </folding>
@@ -177,8 +177,8 @@
         <option value="$PROJECT_DIR$/RegionLDA.py" />
         <option value="$PROJECT_DIR$/RegionLDA_z.py" />
         <option value="$PROJECT_DIR$/RegionLDA_z_y.py" />
-        <option value="$PROJECT_DIR$/RegionLDA_z_y_c.py" />
         <option value="$PROJECT_DIR$/prepare_data.py" />
+        <option value="$PROJECT_DIR$/RegionLDA_z_y_c.py" />
       </list>
     </option>
   </component>
@@ -636,19 +636,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="60" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#25#44#0" expanded="true" />
-          </folding>
+        <state line="112" column="27" selection-start="3220" selection-end="3220" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+    <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="123" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.6069114">
-          <folding />
+        <state line="36" column="24" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.40172786">
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
