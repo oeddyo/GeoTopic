@@ -53,6 +53,7 @@ class LDA():
         self.cnt_r_doc_sum = np.zeros((1, self.n_doc), dtype=np.int)
 
         self.cnt_r_topic = np.zeros((self.R, self.Z), dtype=np.int)
+        self.cnt_r_topic_sum = np.zeros((1, self.R), dtype=np.int)
 
 
         self.mu0 = self.doc_loc.mean(axis=0).reshape(1,2)
@@ -97,6 +98,8 @@ class LDA():
             self.cnt_z_word_sum[0, z] = self.cnt_z_word[z, :].sum()
             self.cnt_r_word_sum[0, r] = self.cnt_r_word[r, :].sum()
 
+            self.cnt_r_topic_sum[0, r] = self.cnt_r_topic[r, :].sum()
+
             for tmp_y in range(3):
                 self.cnt_y_word_sum[0, tmp_y] = self.cnt_y_word[tmp_y, :].sum()
 
@@ -119,7 +122,6 @@ class LDA():
         self.cnt_r_doc_sum[0, cur_r] -= 1
 
         words_in_tweet = self.words_in_tweets[d]
-
         for w in words_in_tweet:
             cur_y = self.y_word[d, w]
             self.cnt_y_word[cur_y, w] -= 1
@@ -137,6 +139,9 @@ class LDA():
 
         cur_z = self.z_doc[0, d]
         self.cnt_r_topic[cur_r, cur_z] -= 1
+        self.cnt_r_topic_sum[0, cur_r] -= 1
+
+
 
         sample_prob = [0.0]*self.R
         for r in range(self.R):
@@ -150,21 +155,23 @@ class LDA():
 
             vn = self.v0 + current_r_doc
             kn = self.k0 + current_r_doc
+
             _sn = self.sg + self.SS[r, :, :] + self.k0*np.dot(self.mu0.T, self.mu0) - kn*np.dot(_mu.T, _mu )
             _sn *= ((kn+1)*1.0/(kn*(vn-2+1)))
 
             p_l_r = mvd.MVT(_mu[0], _sn, vn-2+1).pdf(self.doc_loc[d, :])
 
-            p_z_r = (self.cnt_r_topic[r, cur_z] + self.alpha)*1.0/(self.cnt_r_topic[r, :].sum() + self.Z*self.alpha)
+            #p_z_r = (self.cnt_r_topic[r, cur_z] + self.alpha)*1.0/(self.cnt_r_topic[r, :].sum() + self.Z*self.alpha)
+            p_z_r = (self.cnt_r_topic[r, cur_z] + self.alpha)*1.0/(self.cnt_r_topic_sum[0, r] + self.Z*self.alpha)
 
             p_w_zry = 1.0
             wcount = 0
+
             for w in words_in_tweet:
                 for j in range(self.doc[d, w]):
                     p_w_zry *= (self.cnt_r_word[r, w] + self.beta3 + j)*1.0/(
                         self.cnt_r_word_sum[0, r] + self.n_word*self.beta3 + wcount)
                     wcount += 1
-
             sample_prob[r] = p_r * p_l_r * p_z_r * p_w_zry
 
         sample_prob = np.asarray(sample_prob)
@@ -186,6 +193,7 @@ class LDA():
         self.cnt_r_doc[new_r, d] += 1
         self.cnt_r_doc_sum[0, new_r] += 1
         self.cnt_r_topic[new_r, cur_z] += 1
+        self.cnt_r_topic_sum[0, new_r] += 1
 
         for w in words_in_tweet:
             cur_y = self.y_word[d, w]
@@ -201,6 +209,7 @@ class LDA():
         cur_z = self.z_doc[0, d]
 
         self.cnt_r_topic[cur_r, cur_z] -= 1
+        self.cnt_r_topic_sum[0, cur_r] -= 1
 
         words_in_tweet = self.words_in_tweets[d]
         for w in words_in_tweet:
@@ -210,13 +219,12 @@ class LDA():
             if cur_y == 1:
                 self.cnt_z_word[cur_z, w] -= 1
                 self.cnt_z_word_sum[0, cur_z] -=1
-            #elif cur_y == 2:
-            #    self.cnt_r_word[cur_r, w] -= 1
-            #    self.cnt_r_word_sum[0, cur_r] -= 1
 
         sample_prob = [0.0]*self.Z
         for z in range(self.Z):
-            p_z_r = (self.cnt_r_topic[cur_r, z] + self.alpha)*1.0/(self.cnt_r_topic[cur_r, :].sum() + self.Z*self.alpha)
+            #p_z_r = (self.cnt_r_topic[cur_r, z] + self.alpha)*1.0/(self.cnt_r_topic[cur_r, :].sum() + self.Z*self.alpha)
+            p_z_r = (self.cnt_r_topic[cur_r, z] + self.alpha)*1.0/(self.cnt_r_topic_sum[0, cur_r] + self.Z*self.alpha)
+
             p_w_z = 1.0
             wcount = 0
             for w in words_in_tweet:
@@ -229,8 +237,8 @@ class LDA():
         sample_prob = np.asarray(sample_prob)
         sample_prob /= sample_prob.sum()
         new_z = int(np.random.multinomial(1, sample_prob).argmax())
-        print 'new_z type = ', type(new_z)
         self.cnt_r_topic[cur_r, new_z] += 1
+        self.cnt_r_topic_sum[0, cur_r] += 1
         self.z_doc[0, d] = new_z
         for w in words_in_tweet:
             cur_y = self.y_word[(d, w)]
@@ -239,10 +247,6 @@ class LDA():
             if cur_y == 1:
                 self.cnt_z_word[new_z, w] += 1
                 self.cnt_z_word_sum[0, new_z] +=1
-            #elif cur_y == 2:
-            #    self.cnt_r_word[cur_r, w] += 1
-            #    self.cnt_r_word_sum[0, cur_r] += 1
-
 
     def sample_y(self, d):
         # sample all the words in d

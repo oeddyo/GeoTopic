@@ -3,7 +3,8 @@ import re
 
 import pymongo
 import numpy as np
-from scipy.sparse import lil_matrix
+import scipy
+
 from datetime import datetime
 from sklearn.feature_extraction.text import CountVectorizer
 import pickle
@@ -36,6 +37,8 @@ def parse_data(tweets):
 
     vectorizer = CountVectorizer(min_df = 3, max_df = 0.5, ngram_range=(1,1), stop_words='english' )
     doc = vectorizer.fit_transform(texts)
+
+    #doc = scipy.sparse.dok_matrix(doc)
 
     user_docs = [[] for x in range(n_user)]
 

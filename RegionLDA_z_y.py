@@ -67,6 +67,7 @@ class LDA():
         for d in range(self.n_doc):
             self.words_in_tweets.append( self.doc[d, :].nonzero()[1] )
 
+        self.doc = scipy.sparse
 
     def student_logpdf(self, x):
         pass
@@ -106,6 +107,8 @@ class LDA():
             self.SS[r, :, :] += np.dot(xs.T, xs)
             if r == 5:
                 print 'ss = !!!', self.SS[r, :, :]
+
+
 
     def sample_r(self, d):
         cur_r = self.r_doc[0, d]
