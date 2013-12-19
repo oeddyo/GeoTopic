@@ -129,7 +129,7 @@ def get_data(max_users = 30):
 
 
 
-    return tweets[:1000], test_tweets
+    return tweets, test_tweets
 
 
 def get_formatted_data(max_user):
