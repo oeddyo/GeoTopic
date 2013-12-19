@@ -117,7 +117,7 @@ def get_data(max_users = 30):
 
         #print 'len of tweets ', len(tweets), 'len of test = ', len(test_tweets)
         test_tweets = tweets[-100:-1]
-        pickle.dump((tweets, test_tweets), open('./cache_tweets.pkl','w'))
+        #pickle.dump((tweets, test_tweets), open('./cache_tweets.pkl','w'))
 
     tweets = [tweet for tweet in tweets if len(tweet['text'].split(' ')) >= 10]
 
