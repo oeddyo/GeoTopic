@@ -68,7 +68,7 @@
     <file path="/RegionLDA.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387314340974" ignored="false" />
     <file path="/RegionLDA_z.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387328919878" ignored="false" />
     <file path="/RegionLDA_z_y.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387387231685" ignored="false" />
-    <file path="/RegionLDA_z_y_c.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387416303548" ignored="false" />
+    <file path="/RegionLDA_z_y_c.py" changelist="965d4b3a-a4a0-4098-8c73-b8940dce0d78" time="1387418700243" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <file leaf-file-name="prepare_data.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prepare_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="9" selection-start="3554" selection-end="3554" vertical-scroll-proportion="0.79049677">
+            <state line="111" column="123" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.6069114">
               <folding />
             </state>
           </provider>
@@ -131,9 +131,20 @@
       <file leaf-file-name="RegionLDA_z_y_c.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="26" selection-start="6226" selection-end="6226" vertical-scroll-proportion="0.0">
+            <state line="87" column="60" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#25#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/scipy/sparse/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="429" column="0" selection-start="13036" selection-end="13036" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1382376236000" expanded="false" signature="7206:7272" placeholder="import ..." />
               </folding>
             </state>
           </provider>
@@ -584,15 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/scipy/sparse/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="439" column="0" selection-start="13327" selection-end="13327" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382376236000" expanded="false" signature="-1:-1" placeholder="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lda.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="24" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0">
@@ -625,9 +627,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Software/vir_env/lib/python2.7/site-packages/scipy/sparse/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="429" column="0" selection-start="13036" selection-end="13036" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1382376236000" expanded="false" signature="7206:7272" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RegionLDA_z_y_c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="26" selection-start="6226" selection-end="6226" vertical-scroll-proportion="0.0">
+        <state line="87" column="60" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#25#44#0" expanded="true" />
           </folding>
@@ -636,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prepare_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="9" selection-start="3554" selection-end="3554" vertical-scroll-proportion="0.79049677">
+        <state line="111" column="123" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.6069114">
           <folding />
         </state>
       </provider>

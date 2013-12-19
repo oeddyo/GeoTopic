@@ -76,16 +76,16 @@ class LDA():
     def init(self):
         # initialize parameters here
         for d in range(self.n_doc):
-            r = np.random.multinomial(1, np.asarray([1.0/self.R]*self.R)).argmax()
+            r = int(np.random.multinomial(1, np.asarray([1.0/self.R]*self.R)).argmax())
             self.r_doc[0, d] = r
             self.cnt_r_doc[r, d] += 1
 
-            z = np.random.multinomial(1, np.asarray([1.0/self.Z]*self.Z)).argmax()
+            z = int(np.random.multinomial(1, np.asarray([1.0/self.Z]*self.Z)).argmax())
             self.z_doc[0, d] = z
             self.cnt_r_topic[r, z] += 1
 
             for w in self.doc[d, :].nonzero()[1]:
-                y = np.random.multinomial(1, [1.0/3]*3).argmax()
+                y = int(np.random.multinomial(1, [1.0/3]*3).argmax())
                 self.y_word[(d, w)] = y
                 if y == 1:
                     self.cnt_z_word[z, w] += 1
@@ -154,6 +154,7 @@ class LDA():
             _sn *= ((kn+1)*1.0/(kn*(vn-2+1)))
 
             p_l_r = mvd.MVT(_mu[0], _sn, vn-2+1).pdf(self.doc_loc[d, :])
+            print type(r), type(cur_z)
             p_z_r = (self.cnt_r_topic[r, cur_z] + self.alpha)*1.0/(self.cnt_r_topic[r, :].sum() + self.Z*self.alpha)
 
             p_w_zry = 1.0
@@ -169,7 +170,7 @@ class LDA():
         sample_prob = np.asarray(sample_prob)
         sample_prob /= sample_prob.sum()
         #print sample_prob
-        new_r = np.random.multinomial(1, sample_prob).argmax()
+        new_r = int(np.random.multinomial(1, sample_prob).argmax())
 
         self.r_doc[0, d] = new_r
 
@@ -227,8 +228,8 @@ class LDA():
             sample_prob[z] = p_z_r * p_w_z
         sample_prob = np.asarray(sample_prob)
         sample_prob /= sample_prob.sum()
-        new_z = np.random.multinomial(1, sample_prob).argmax()
-
+        new_z = int(np.random.multinomial(1, sample_prob).argmax())
+        print 'new_z type = ', type(new_z)
         self.cnt_r_topic[cur_r, new_z] += 1
         self.z_doc[0, d] = new_z
         for w in words_in_tweet:

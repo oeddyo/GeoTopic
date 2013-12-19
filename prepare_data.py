@@ -133,4 +133,4 @@ def get_formatted_data(max_user):
     tweets, test_tweets = get_data(max_user)
     return (parse_data(tweets), parse_data(test_tweets))
 
-get_data()
+#get_data()
